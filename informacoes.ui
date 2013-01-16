@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Informacoes</class>
+ <widget class="QDialog" name="Informacoes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>479</width>
+    <height>352</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Informações importantes</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ff0000;&quot;&gt;Informações importantes&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;-Esse software emula a utilização do Mouse com base nos&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;movimentos da sua cabeça.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;-No Centro da imagem temos um quadrado branco, enquanto o&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;ponto vermelho no seu nariz permanecer nesse quadrado o mouse&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;não se move.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;-Saindo do quadrado o mouse se move para o respectivo lado.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;-Para o clique com o botão direito, o usuário deverá mover o ponto&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;vermelho até o quadrado azul e permanecer lá por 2 segundos.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;-Para o clique com o botão esquerdo, o usuário deverá mover o&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;ponto vermelho até o quadrado verde e permanecer lá por 2&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;segundos.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>324</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="Ok">
+     <property name="text">
+      <string>Ok</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>323</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Ok</sender>
+   <signal>clicked()</signal>
+   <receiver>Informacoes</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>266</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
