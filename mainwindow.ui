@@ -6,37 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>369</width>
+    <height>288</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Deteccao de face</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>90</y>
-      <width>91</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>400</width>
-     <height>19</height>
-    </rect>
-   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#ff0000;&quot;&gt;Câmera não encontratda&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;Favor verifique se a câmera está corretamente&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;conectada e os drivers estão&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;corretamente instalados&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -46,7 +32,6 @@
     <bool>false</bool>
    </attribute>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
