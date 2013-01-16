@@ -1,6 +1,7 @@
 #include "Mouse.h"
 #include <iostream>
 #include <cstdlib>
+#include <unistd.h>
 
 Mouse::Mouse(){
     //Abre conexao com o servidor X
